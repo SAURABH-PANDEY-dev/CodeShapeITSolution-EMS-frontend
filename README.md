@@ -1,12 +1,58 @@
-# React + Vite
+# Enterprise Expense Management System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React frontend application for the **Enterprise Expense Management System** project.  
+It provides a user interface for managing expenses, including features such as creating, viewing, filtering expenses, and file upload for invoices.
 
-Currently, two official plugins are available:
+---
+Deployment link : code-shape-it-solution-ems-frontend-lx4c5ewoe.vercel.app
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Environment Variables](#environment-variables)
+- [Notes](#notes)
+- [License](#license)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- User Authentication with JWT and OAuth2 (Google Sign-In)
+- Create, Read, Update, Delete (CRUD) expenses
+- Filter expenses by date and category
+- Upload invoice files (PDF, PNG, JPG)
+- Responsive and clean UI using Material-UI components
+- Notifications and error handling with Snackbar alerts
+
+---
+
+## Tech Stack
+
+- React 18+
+- React Router v6
+- Material-UI (MUI)
+- Axios for HTTP requests
+- Context API for authentication state management
+- Other libs: date-fns, form validation helpers
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 16+ and npm installed
+- Backend API running and accessible
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/enterprise-expense-frontend.git
+cd enterprise-expense-frontend
